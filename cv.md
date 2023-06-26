@@ -25,10 +25,10 @@
     - Russian native
     - Kazakh native
 - Education
-    - [Stepic - emmet plagin](https://stepik.org/cert/2092034)
-    - [Stepic - HTML CSS JS](https://stepik.org/cert/2077884)
-    - [Stepic - WEB tehnology basic lvl](https://stepik.org/cert/2053171)
-    - [Stepic - Golang](https://stepik.org/cert/1806739)
+    - [Stepic emmet plagin](https://stepik.org/cert/2092034)
+    - [Stepic HTML CSS JS](https://stepik.org/cert/2077884)
+    - [Stepic WEB tehnology basic lvl](https://stepik.org/cert/2053171)
+    - [Stepic Golang](https://stepik.org/cert/1806739)
     - [Alem School](https://alem.school/certificates/alumni/Orochi)
 ---
 
