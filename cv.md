@@ -30,7 +30,6 @@
     + [Stepic](https://stepik.org/cert/2053171)
     + [Stepic](https://stepik.org/cert/1806739)
     + [Alem School](https://alem.school/certificates/alumni/Orochi)
-
 ---
 
 ## About me
