@@ -1,4 +1,0 @@
-# rsschool-cv
----
-## Bekentayev Abylay
----

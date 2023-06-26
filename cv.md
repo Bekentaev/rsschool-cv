@@ -8,28 +8,29 @@
 
 ## Frontend developer
 
-*contacts
+* contacts
     + **telegram:** [@asalety](https://t.me/asalety)
     + **discord:** _@Orochi || ivadubre_
     + **linkedin:** [Abylay](https://www.linkedin.com/in/abylay-bekentayev-a3491826a/)
     + **instagram:** bekentayev
     + **Email:** _Neveryun1212@gmail.com_
-*scills
+* scills
     + HTML, CSS
     + JS basic
     + Golang
     + Git
     + Figma/PhotoShop/Gimp/PremierePro
-*language
+* language
     + English basic
     + Russian native
     + Kazakh native
-*Education
+* Education
     + [Stepic](https://stepik.org/cert/2092034)
     + [Stepic](https://stepik.org/cert/2077884)
     + [Stepic](https://stepik.org/cert/2053171)
     + [Stepic](https://stepik.org/cert/1806739)
     + [Alem School](https://alem.school/certificates/alumni/Orochi)
+
 ---
 
 ## About me
