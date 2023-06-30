@@ -1,0 +1,94 @@
+img {
+  /* max-width: 5%; */
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: Agdasima, Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  margin: 0 auto;
+  background-color: #977ffb;
+}
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+
+/* header */
+.header {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #e0d9fb;
+  padding: 1em;
+}
+.header__title {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0.5em 0.2em #977ffb;
+}
+.main {
+}
+.main__title {
+}
+.main__content {
+}
+.about-me__contact {
+}
+.about-me__contact-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+.about-me__contact-img {
+  max-width: 10%;
+  flex: 1 0 30%;
+}
+.about-me__contact-title {
+  flex: 1 0 30%;
+}
+.tg-logo {
+  max-width: 10%;
+}
+.about-me {
+  max-width: 10%;
+}
+.accordion {
+}
+.about-me-title {
+}
+.about-me-content {
+}
+.education {
+}
+.education-title {
+}
+.education-content {
+}
+.scills {
+}
+.scills-title {
+}
+.scills-content {
+}
+.footer {
+}
+.footer-item {
+}
