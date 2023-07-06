@@ -1,94 +1,83 @@
-img {
-  /* max-width: 5%; */
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
+@font-face {
+  font-family: "hongkong";
+  src: url(../fonts/hongkong.ttf);
 }
-html {
+
+body {
   margin: 0;
   padding: 0;
-}
-@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-body {
-  font-family: Agdasima, Impact, Haettenschweiler, "Arial Narrow Bold",
-    sans-serif;
-  margin: 0 auto;
-  background-color: #977ffb;
-}
-p {
+  box-sizing: border-box;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: whitesmoke;
+  font-family: "Agdasima", sans-serif;
   font-size: 16px;
 }
 
-h1 {
-  font-size: 40px;
-}
-h2 {
-  font-size: 30px;
+h1,
+h2,
+h3 {
+  font-family: "hongkong";
+  font-size: 2em;
 }
 
-/* header */
-.header {
-  max-width: 100%;
-  margin: 0 auto;
-  background-color: #e0d9fb;
-  padding: 1em;
+p {
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1em;
 }
-.header__title {
-  font-size: 2em;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0.5em 0.2em #977ffb;
-}
-.main {
-}
-.main__title {
-}
-.main__content {
-}
-.about-me__contact {
-}
-.about-me__contact-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 ul {
   list-style-type: none;
 }
-.about-me__contact-img {
-  max-width: 10%;
-  flex: 1 0 30%;
+
+.main__img {
+  border-radius: 30px;
+  max-width: 300px;
+  border: 1px solid black;
 }
-.about-me__contact-title {
-  flex: 1 0 30%;
+
+.contacts__menu-img {
+  width: 130px;
 }
-.tg-logo {
-  max-width: 10%;
+
+code {
+  display: block;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
 }
-.about-me {
-  max-width: 10%;
+
+ul > li {
+  /* list-style-type: square; */
+  font-size: 1.5em;
 }
-.accordion {
+
+.contacts__menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10%;
 }
-.about-me-title {
+
+body > * {
+  width: 80%;
+  margin: 0 auto;
 }
-.about-me-content {
+
+.main__content-about-me {
+  background: rgb(211, 211, 211, 0.8);
+  border-radius: 50px 0 50px 0;
+  padding: 1%;
+  margin: 3% 0;
 }
-.education {
-}
-.education-title {
-}
-.education-content {
-}
-.scills {
-}
-.scills-title {
-}
-.scills-content {
-}
-.footer {
-}
-.footer-item {
+
+.contacts__menu-el:hover {
+  background-color: lightblue;
+  border-radius: 10px;
 }
