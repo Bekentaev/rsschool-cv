@@ -7,17 +7,27 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="top-id">
       <h1 class="header__title">
         <a href="https://app.rs.school/" class="header__title-link">rsschool-cv</a>
       </h1>
     </header>
+    <nav class="nav__nav-bar">
+          <ul class="nav_bar-menu">
+            <li class="menu-el"><a href="#contacts">contacts</a></li>
+            <li class="menu-el"><a href="#scills">scills</a></li>
+            <li class="menu-el"><a href="#language">language</a></li>
+            <li class="menu-el"><a href="#education">Education</a></li>
+            <li class="menu-el"><a href="#about">About</a></li>
+            <li class="menu-el"><a href="#code">code</a></li>
+          </ul>
+    </nav>
     <main class="main">
       <h2 class="main__title">Bekentayev Abylay</h2>
-      <img src="img/me-logo.JPEG" alt="my img" class="main__img">
+      <img src="img/me-logo.JPEG" alt="photo Abylay" class="main__img">
       <article class="main__content">
         <h3 class="main__content-title">Frontend developer</h3>
-        <section class="main__content-contacts">
+        <section class="main__content-contacts" id="contacts">
           <h3 class="main__content-title">Contacts</h3>
           <ul class="contacts__menu">
             <li class="contacts__menu-el">
@@ -35,7 +45,7 @@
             </li>
           </ul>
         </section>
-        <section class="main__content-scills">
+        <section class="main__content-scills" id="scills">
           <h2 class="scills__title">scills</h2>
           <ul class="scills__menu">
             <li class="scills__menu-li">HTML, CSS</li>
@@ -45,7 +55,7 @@
             <li class="scills__menu-li">Figma/PhotoShop/Gimp/PremierePro</li>
           </ul>
         </section>
-        <section class="main__content-language">
+        <section class="main__content-language" id="language">
           <h3 class="language__title">language</h3>
           <ul class="language__menu">
             <li class="language__menu-li">Kazakh native</li>
@@ -53,21 +63,22 @@
             <li class="language__menu-li">Russian native</li>
           </ul>
         </section>
-        <section class="main__content-education">
+        <section class="main__content-education" id="education">
           <h3 class="education__title">Education</h3>
           <p><a href="https://alem.school/certificates/alumni/Orochi">Alem</a></p>
           <p><a href="https://stepik.org/cert/2092034">Stepic</a></p>
         </section>
-        <section class="main__content-about-me">
+        <section class="main__content-about-me" id="about">
           <h3 class="about-me__title">About me</h3>
           <p class="about-me__text">
-            I want to become a frontend developer. I started by learning the
-            basics of how the Internet works, learning the HTML markup language
-            and the CSS stylistic language. I take my work responsibly, I think
-            that what you do should be done from the heart and 100 percent
+            Hi everyone, my name is Abylay, I am 21 years old by profession I am an electrician. Now I am actively studying the frontend. My favorite books are Martin Eden, 1984.
+            I want to become a frontend developer. I started by learning
+            the basics of how the Internet works by learning the HTML markup language
+            and the stylistic language CSS. I have a responsible attitude to my work, I believe.
+            That what you do should be done from the heart and 100 percent.
           </p>
         </section>
-        <section class="main__content-code">
+        <section class="main__content-code" id="code">
           <h2>Code:</h2>
           <code class="code__content">
             function mult &lpar;n1,n2 &rpar; &lcub;<br>
@@ -76,6 +87,12 @@
           </code>
         </section>
       </article>
+      <div class="btn-container"><a href="#top-id">On the top</a></div>
     </main>
+    <footer class="footer">
+      <p class="footer__text">2023 all rights reserved</p>
+      <a href="https://rs.school/js/" class="footer__link"><img class="footer__img" src="https://rs.school/images/rs_school_js.svg" alt="rsschool link"></a>
+      <a href="https://github.com/Bekentaev" class="footer__link"><img class="footer__img" src="img/git-logo.svg" alt="githab-link"></a>
+    </footer>
   </body>
 </html>
