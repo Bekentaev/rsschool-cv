@@ -4,6 +4,10 @@
   src: url(../fonts/hongkong.ttf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -78,6 +82,49 @@ body > * {
 }
 
 .contacts__menu-el:hover {
+  background-color: lightblue;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn-container:hover {
+  background-color: lightcoral;
+}
+.btn-container {
+  width: 10%;
+  height: 10%;
+  padding: 10px;
+  background-color: lightblue;
+  border-radius: 10px;
+  font-size: 1.2em;
+  margin: 30px;
+  text-align: center;
+}
+
+.nav_bar-menu {
+  display: flex;
+  gap: 5%;
+  font-size: 1.5em;
+}
+
+.footer {
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.footer__img {
+  max-width: 300px;
+  margin: 0 50px 0 0;
+}
+
+.footer img:hover {
   background-color: lightblue;
   border-radius: 10px;
 }
