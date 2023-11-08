@@ -16,8 +16,7 @@
     - **Email:** _Neveryun1212@gmail.com_
 - scills
     - HTML, CSS
-    - JS basic
-    - Golang
+    - JS/Golang
     - Git
     - Figma/PhotoShop/Gimp/PremierePro
 - language
@@ -47,3 +46,4 @@ function mult(n1,n2){
 
 console.log(mult(5, 5));
 ```
+### [RSAPP](https://app.rs.school/)
