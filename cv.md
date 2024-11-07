@@ -28,6 +28,11 @@ Optimist and will be a programmer
 
 ```
 console.log('Hello World');
+
+for(let i = 0; i < element.length;i++){
+    console.log(element)
+}
+
 ```
 
 ---
